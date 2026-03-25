@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #800000;
+  color: #D4AF37;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Playfair Display', serif;
+}
+
+.mandala-pattern {
+  background-image: radial-gradient(#D4AF37 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.1;
+}
+
+.gold-border {
+  border: 4px double #D4AF37;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(to right, #D4AF37, #F9E27D, #D4AF37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
